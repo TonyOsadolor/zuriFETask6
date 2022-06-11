@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/bg3.jpg" type="image/jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Zuri Task 6</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">ZuriTask 6</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Page</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="registration.html">Registration Page</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login Page</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="main-body">
+        <div class="container">
+            <h1 class="welcome-banner">Welcome to the Registration Page</h1>
+            <h4 class="welcome-banner">Kindly Fill the Form Below and Click on Submit to Register</h4>
+            <div class="row">
+                <div class="col-12">
+                    <form action="" class="registration-form" autocomplete="off">
+                        <div class="row registration-form-row">
+                            <div class="col-6">
+                                <label for="First Name" class="form-label">First Name</label>
+                                <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Enter First Name" required>
+                            </div> 
+                            <div class="col-6">
+                                <label for="Surname" class="form-label">Surname</label>
+                                <input type="text" class="form-control" name="surname" id="surname" placeholder="Enter Surname" required>
+                            </div>
+                            <div class="col-sm-3">
+                                <label for="Gender" class="form-label">Gender</label>
+                                <select class="form-control" name="gender" id="gender" required>
+                                    <option value="">-- Select --</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Male">Male</option>
+                                </select>
+                            </div> 
+                            <div class="col-sm-3">
+                                <label for="Phone" class="form-label">Phone</label>
+                                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter Phone Number" required>
+                            </div> 
+                            <div class="col-sm-6">
+                                <label for="Email" class="form-label">Email</label>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Enter Email Address" required>
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="Country" class="form-label">Country</label>
+                                <input type="text" class="form-control" name="country" id="country" placeholder="Enter Country Name" required>
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="State" class="form-label">State</label>
+                                <input type="text" class="form-control" name="state" id="state" placeholder="Enter State" required>
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="Password" class="form-label">Password</label>
+                                <input type="password" class="form-control" name="password" id="password" placeholder="Enter Password" required>
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="Confirm Password" class="form-label">Confirm Password</label>
+                                <input type="password" class="form-control" name="cpassword" id="cpassword" placeholder="Confirm Password" required>
+                            </div>
+                            <hr class="registration-form-hr">
+                            <div class="col-sm-12">
+                                <button class="btn btn-success">Register</button>
+                            </div>                    
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h5 class="footer-banner"><b>IGHIWIYISI, Anthony Osadolor</b> (All Rights Reserved) &copy; 2022</script></h5>
+    </footer>
+
+
+    <script src="assets/js/bootstrap.min.js"></script>    
+</body>
+</html>

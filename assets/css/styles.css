@@ -1,0 +1,135 @@
+/* Universal Styling Starts */
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: #e3f2fd;
+}
+body{
+    background-color: #f4f7f9;
+}
+.main-body{
+    min-height:450px;
+}
+/* Universal Styling Ends */
+
+/* Styling for Index - About Me Page Starts */
+.welcome-banner{
+    margin: 2% auto;
+    text-align: center;
+    font-weight: bolder;
+}
+.about-me{
+    font-size: larger;
+}
+.about-me h3{
+    font-weight: bolder;
+}
+.about-me ul{
+    list-style-type: upper-alpha;
+}
+.me-paragraph{
+    text-align: justify;
+}
+.qaulities{
+    font-weight: bold;
+}
+.image-box
+{
+    padding: 3px;
+}
+.image-box img{
+    max-width: 100%;
+}
+/* Styling for Index - About Me Page Ends */
+
+/* Styling for Contact Page Starts */
+.btn-contact-me{
+    width: 100%;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    box-shadow: 10px 5px 10px 0px black;
+}
+.contact-me-form{
+    padding: 3px;
+    margin: 2%;
+    color: white;
+}
+.contact-me-form input{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+.contact-me-form textarea{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+.form-label{
+    font-weight: bold;
+    margin: 1% auto;
+}
+.contact-me-legend{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url('../images/bg2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 0% 0% 2% 0%;
+}
+.btn-submit-form{
+    margin: 2% 10%;
+    width: 80%;
+    text-transform: capitalize;
+    font-weight: bold;
+    box-shadow: 10px 5px 10px 0px black;
+}
+/* Styling for Contact Page Ends */
+
+/* Styling for Registration Page Starts */
+.registration-form{
+    padding: 5px;
+}
+.registration-form-row{
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.registration-form-hr{
+    border: 2px solid black;
+    margin:1% auto;
+    width:60%;
+}
+/* Styling for Registration Page Ends */
+
+/* Styling for Login Page Starts */
+.login-box{
+    max-width: 350px;
+    min-height: 250px;
+    padding: 8px;
+    margin: 3% auto;
+    box-shadow: 10px 5px 10px 0px #07273e;
+    border: 1px solid #75a3c4;
+    border-radius: 8px;
+    line-height: 35px;
+}
+.login-form{
+    padding: 8px;
+}
+.sign-in{
+    margin: 3% auto;
+    width: 100%;
+    font-weight: bold;
+}
+/* Styling for Login Page Ends */
+
+/* Styling for Footer Starts */
+footer{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 2% 0% 0% 0%;
+    text-align: center;
+}
+/* Styling for Footer Ends */
